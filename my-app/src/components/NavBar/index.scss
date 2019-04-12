@@ -1,0 +1,20 @@
+@import "../../stylesheets/variables.scss";
+.nav-bar {
+  position: fixed;
+  height: 100vh;
+  width: 200px;
+  background: -webkit-linear-gradient(180deg,#555,#2e2e2e);
+  padding-top: 150px;
+  .tab {
+    padding: $gutter-width;
+    font-size: $font-size-large;
+    color: hsla(0,0%,100%,.7);
+    cursor: pointer;
+    &:hover {
+      color: white;
+    }
+    &.selected {
+      color: white;
+    }
+  }
+}
